@@ -69,11 +69,5 @@ export default {
       icon: 'fa fa-newspaper-o',
       roles: ['admin', 'teacher'],
     },
-    {
-      name: 'Manage Question 1',
-      url: '/manage-question1',
-      icon: 'cui-list',
-      roles: ['admin']
-    }
   ],
 };
