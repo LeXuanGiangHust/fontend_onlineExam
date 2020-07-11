@@ -26,7 +26,7 @@ export default {
       name: 'Exam',
       url: '/exam',
       icon: 'fa fa-hourglass-half',
-      roles: ['admin', 'student'],
+      roles: ['admin', 'teacher', 'student'],
     },
     {
       name: 'User',
@@ -55,13 +55,13 @@ export default {
       name: 'Field Question',
       url: '/field-question',
       icon: 'cui-align-left',
-      roles: ['admin'],
+      roles: ['admin', 'teacher'],
     },
     {
       name: 'Manage Question',
       url: '/manage-question',
       icon: 'cui-list',
-      roles: ['admin'],
+      roles: ['admin', 'teacher'],
     },
     {
       name: 'Manage Subject Test',
